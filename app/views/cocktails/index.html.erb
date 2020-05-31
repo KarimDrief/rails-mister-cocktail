@@ -1,0 +1,6 @@
+<h1>Hall Of Fame Cocktails
+<% @cocktails.each do |cocktail| %></h1>
+<%= cocktail.name %>
+<%= link_to "Go back", cocktail_id(cocktail) %>
+<% end %>
+
